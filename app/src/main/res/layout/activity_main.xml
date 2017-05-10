@@ -29,34 +29,26 @@
 
         <TextView
             android:id="@+id/label1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:textSize="18sp"
-            android:textStyle="bold"
             android:text="@string/label1"
+            style="@style/Label"
             />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label1"
             android:layout_alignBaseline="@id/label1"
-            android:textSize="18sp"
             android:text="@string/value1"
+            style="@style/MyStyle"
             />
 
         <TextView
             android:id="@+id/label2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:layout_below="@id/label1"
-            android:textSize="18sp"
-            android:textStyle="bold"
             android:text="@string/label2"
+            style="@style/Gold"
             />
 
         <TextView
@@ -87,6 +79,7 @@
             android:layout_alignBaseline="@id/label3"
             android:textSize="18sp"
             android:text="@string/value3"
+            style="@android:style/Theme.Material.Light.LightStatusBar"
             />
 
     </RelativeLayout>
@@ -97,6 +90,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="@string/buttonLabel"
+        style="@style/Button"
         />
 
 </RelativeLayout>
